@@ -1,0 +1,12 @@
+name: mnist
+N: 200
+classes: -1 #or list of int
+mb_size: 64
+Ntest: -1
+shuffle: false
+workers: 0
+post_transformations:
+  - normalize:
+     mean: 0.1307
+     std: 0.3081
+pre_transformations: []

@@ -1,0 +1,12 @@
+seed: 0
+saved_model: null
+ae_weight: null
+bounds: false
+
+defaults:
+  - _self_
+  - hydra: custom
+  - dataset: square
+  - levels: j2_linear
+  - optimizer: pg
+  - model: rkm

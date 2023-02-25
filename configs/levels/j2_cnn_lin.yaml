@@ -1,0 +1,15 @@
+j1:
+  lambd: 1.0
+  eta: 1.0
+  s: 2
+  phi:
+    capacity: 64
+    x_fdim1: 256
+    x_fdim2: 50
+j2:
+  lambd: 1.0
+  eta: 1.0
+  s: 2
+  kernel:
+    name: linear
+    args: null

@@ -1,0 +1,9 @@
+job_logging:
+  root: null
+  disable_existing_loggers: false
+hydra_logging:
+  root: null
+  disable_existing_loggers: false
+output_subdir: null
+run:
+  dir: .

@@ -1,0 +1,16 @@
+j1:
+  lambd: 1.0
+  eta: 1.0
+  s: 2
+  kernel:
+    name: rbf
+    args:
+      sigma2: 1
+j2:
+  lambd: 1.0
+  eta: 1.0
+  s: 2
+  kernel:
+    name: rbf
+    args:
+      sigma2: 1

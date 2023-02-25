@@ -1,0 +1,9 @@
+name: 3dshapes
+N: 200
+classes: -1
+mb_size: 256
+Ntest: 10
+shuffle: false
+workers: 0
+post_transformations: []
+pre_transformations: []

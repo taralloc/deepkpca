@@ -1,0 +1,14 @@
+j1:
+  lambd: 1.0
+  eta: 1.0
+  s: 2
+  kernel:
+    name: linear
+    args: null
+j2:
+  lambd: 1.0
+  eta: 1.0
+  s: 2
+  kernel:
+    name: linear
+    args: null

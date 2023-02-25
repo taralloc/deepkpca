@@ -1,0 +1,9 @@
+name: pg
+torch:
+  lr: 0.01
+init:
+  name: random
+maxepochs: 1000
+epsilon: 1e-3 #abs param diff to terminate
+beta: 1e-7 #abs loss diff to terminate
+patience: 1000

@@ -1,0 +1,15 @@
+git+https://github.com/geoopt/geoopt.git
+h5py
+hydra-core
+matplotlib==3.5.3
+pandas
+scikit-learn
+scipy
+torch==1.13
+torchvision
+tqdm
+wcmatch
+git+https://github.com/nmichlo/disent.git@be1207627a6cba6122e1bdd1f0f2e90b268722f5
+imageio
+scikit-image
+wandb

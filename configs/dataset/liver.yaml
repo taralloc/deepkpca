@@ -1,0 +1,9 @@
+name: liver
+N: -1
+classes: -1 #or list of int
+mb_size: 64
+Ntest: -1
+shuffle: false
+workers: 0
+post_transformations: []
+pre_transformations: []

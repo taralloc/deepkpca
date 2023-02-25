@@ -1,0 +1,17 @@
+name: geoopt
+torch:
+  lr: 100
+init:
+  name: random
+maxepochs: 1000
+lr_scheduler:
+  factor: 0.95
+  patience: 50
+  threshold: 0
+  cooldown: 50
+  min_lr: 0.0001
+  threshold_mode: rel
+epsilon: 1e-7 #abs param diff to terminate
+beta: 1e-7 #abs loss diff to terminate
+patience: 5000
+lr_nn: 2e-4 # learning rate for Adam optimizer of the NN params

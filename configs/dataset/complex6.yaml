@@ -1,0 +1,9 @@
+name: complex6
+N: 400
+mb_size: 64
+Ntest: -1
+shuffle: false
+workers: 0
+post_transformations: []
+pre_transformations: []
+std: 0.1
